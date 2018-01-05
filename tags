@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASE_PATH	add_label.py	/^    BASE_PATH=".\/att_faces\/s41\/"        $/;"	v
+SEPARATOR	add_label.py	/^    SEPARATOR=";"    $/;"	v
+abs_path	add_label.py	/^                abs_path = "%s\/%s" % (subject_path, filename)  $/;"	v
+fh	add_label.py	/^    fh = open("at.txt",'w')  $/;"	v
+label	add_label.py	/^                label = int(subdirname4)           $/;"	v
+label	add_label.py	/^            label = label + 1  $/;"	v
+main	detectFace.cpp	/^int main()$/;"	f
+main	takePhotos.cpp	/^int main()$/;"	f
+main	train.cpp	/^int main()$/;"	f
+norm_0_255	train.cpp	/^static Mat norm_0_255(InputArray _src)$/;"	f	file:
+read_csv	train.cpp	/^static void read_csv(const string& filename, vector<Mat>& images, vector<int>& lables, char separator = ';')$/;"	f	file:
+subdirname2	add_label.py	/^                subdirname2 = subdirname[::-1]$/;"	v
+subdirname3	add_label.py	/^                subdirname3 = subdirname2[:-1]$/;"	v
+subdirname4	add_label.py	/^                subdirname4 = subdirname3[::-1]$/;"	v
+subject_path	add_label.py	/^            subject_path = os.path.join(dirname, subdirname)  $/;"	v
